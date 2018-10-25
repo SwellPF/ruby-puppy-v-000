@@ -7,4 +7,8 @@ def initialize(name)
   @@ALL << self
 end
 
+def self.all
+  @ALL.each do |dog|
+    puts "#{dog}"
+end
 end
