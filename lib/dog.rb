@@ -3,6 +3,7 @@ class Dog
   ALL_DOGS=[]
 def initialize(name)  
   @name = name
+  ALL_DOGS << name
 end
 
 end
