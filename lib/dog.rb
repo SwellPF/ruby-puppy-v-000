@@ -1,3 +1,5 @@
+require 'pry'
+binding.pry
 class Dog
   attr_accessor :name
   @@all = []
